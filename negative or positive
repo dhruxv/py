@@ -1,0 +1,14 @@
+
+n = float(input("Input a number: "))
+
+# Check if the input number is greater than or equal to 0.
+if n >= 0:
+    # If the number is zero, print that it is zero.
+    if n == 0:
+        print("It is Zero!")
+    # If the number is greater than zero, print that it is a positive number.
+    else:
+        print("Number is Positive number.")
+# If the number is less than zero, print that it is a negative number.
+else:
+    print("Number is Negative number.")
